@@ -1,0 +1,48 @@
+{
+  "name": "pdfmake-to-html",
+  "version": "1.0.0",
+  "description": "Convert pdfmake's JSON tree into a DOM tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "pre-publish": "babel src/ --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Astrocoders/pdfmake-to-html.git"
+  },
+  "keywords": [
+    "pdfmake",
+    "html"
+  ],
+  "author": "Gabriel Rubens (twitter.com/_gabrielrubens)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astrocoders/pdfmake-to-html/issues"
+  },
+  "homepage": "https://github.com/Astrocoders/pdfmake-to-html#readme",
+  "dependencies": {
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "jest": "^20.0.0"
+  },
+  "jest": {
+    "browser": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
