@@ -1,6 +1,6 @@
 {
   "name": "pdfmake-to-html",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert pdfmake's JSON tree into a DOM tree",
   "main": "index.js",
   "scripts": {
