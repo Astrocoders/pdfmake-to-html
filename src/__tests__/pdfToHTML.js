@@ -24,5 +24,5 @@ test('should properly convert a pdf doc definition to DOM', () => {
     ]
   }]
 
-  expect(pdfToHTML({pdfDocument: documentDefinition}).innerHTML).toMatchSnapshot()
+  expect(pdfToHTML({pdfDocument: documentDefinition})).toMatchSnapshot()
 })
